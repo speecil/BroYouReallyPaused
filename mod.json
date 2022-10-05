@@ -1,0 +1,38 @@
+{
+  "_QPVersion": "0.1.1",
+  "name": "Bro You Really Paused",
+  "id": "BroYouReallyPaused",
+  "author": "speecil",
+  "version": "0.1.0",
+  "coverImage": "cover.png",
+  "packageId": "com.beatgames.beatsaber",
+  "packageVersion": "1.24.0",
+  "description": "Damn you really paused cringe",
+  "dependencies": [
+    {
+      "version": "^0.15.18",
+      "id": "custom-types",
+      "downloadIfMissing": "https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.15.21/CustomTypes.qmod"
+    },
+    {
+      "version": "^0.25.0",
+      "id": "codegen",
+      "downloadIfMissing": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.25.0/Codegen.qmod"
+    },
+    {
+      "version": "^0.16.4",
+      "id": "questui",
+      "downloadIfMissing": "https://github.com/darknight1050/QuestUI/releases/download/v0.16.4/QuestUI.qmod"
+    }
+  ],
+  "modFiles": [
+    "libBroYouReallyPaused.so"
+  ],
+  "libraryFiles": [
+    "libbeatsaber-hook_3_14_0.so",
+    "libcustom-types.so",
+    "libbs-utils.so"
+  ],
+  "fileCopies": [],
+  "copyExtensions": []
+}
