@@ -3,35 +3,37 @@
   "name": "Bro You Really Paused",
   "id": "BroYouReallyPaused",
   "author": "speecil",
-  "version": "0.1.0",
-  "coverImage": "cover.png",
+  "version": "0.1.1",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.24.0",
-  "description": "Damn you really paused cringe",
+  "packageVersion": "1.25.1",
+  "description": "Damn you really paused? cringe. This Mod creates a customiseable text underneath the pause menu! Can be used for: Bullying yourself for pausing, Funny stuff and reminders to do the dishes.",
   "dependencies": [
     {
-      "version": "^0.15.18",
+      "version": "^0.7.1",
+      "id": "bs-utils",
+      "downloadIfMissing": "https://github.com/sc2ad/QuestBS-Utils/releases/download/v0.7.2/BS-Utils.qmod"
+    },
+    {
+      "version": "^0.15.21",
       "id": "custom-types",
       "downloadIfMissing": "https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.15.21/CustomTypes.qmod"
     },
     {
-      "version": "^0.25.0",
+      "version": "^0.28.0",
       "id": "codegen",
-      "downloadIfMissing": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.25.0/Codegen.qmod"
+      "downloadIfMissing": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.28.0/Codegen.qmod"
     },
     {
-      "version": "^0.16.4",
+      "version": "^0.17.3",
       "id": "questui",
-      "downloadIfMissing": "https://github.com/darknight1050/QuestUI/releases/download/v0.16.4/QuestUI.qmod"
+      "downloadIfMissing": "https://github.com/darknight1050/QuestUI/releases/download/v0.17.5/QuestUI.qmod"
     }
   ],
   "modFiles": [
     "libBroYouReallyPaused.so"
   ],
   "libraryFiles": [
-    "libbeatsaber-hook_3_14_0.so",
-    "libcustom-types.so",
-    "libbs-utils.so"
+    "libbeatsaber-hook_3_14_0.so"
   ],
   "fileCopies": [],
   "copyExtensions": []
